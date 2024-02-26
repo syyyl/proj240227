@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>project</title>
+</head>
+<body>
+    <div id='frame4' class='frame4'>
+
+        <div id='project' class='project'>PROJECT</div>
+
+
+        <div id="images" class="images">
+        <!-- 출처 <a href="https://kr.freepik.com/free-psd/hiking-store-landing-pages-template_7274480.htm#query=%EC%9B%B9%20%EC%82%AC%EC%9D%B4%ED%8A%B8&position=14&from_view=keyword&track=ais&uuid=872797d5-d725-493c-9a97-6c850e76f8d6">Freepik</a>-->
+            <img id='rectangle1' class='rectangle1' src="../image/6374140.jpg"
+                 onclick="showDescription('rectangle1', '프로젝트1에 대한 설명입니다.')"/>
+            <img id='rectangle2' class='rectangle2' src="../image/6380296.jpg"
+                 onclick="showDescription('rectangle2', '프로젝트2에 대한 설명입니다.')"/>
+            <img id='rectangle3' class='rectangle3' src="../image/pf-s108-blogbanner-10-googlefocus.jpg"
+                 onclick="showDescription('rectangle3', '프로젝트3에 대한 설명입니다.')"/>
+
+        </div>
+
+        <div id="descriptionDiv" class="descriptionDiv"></div>
+
+        <div id="group3" class="group3">
+            <div id="ellipse1" class="ellipse1" onclick="redirectToMainPage()"></div>
+            <div id="ellipse2" class="ellipse2" onclick="redirectToAbout()"></div>
+            <div id="ellipse3" class="ellipse3" onclick="redirectToSkills()"></div>
+            <div id="ellipse4" class="ellipse4" onclick="redirectToProject()"></div>
+        </div>
+
+        <script>
+            function redirectToMainPage() {
+                window.location.href = 'mainpage.html';
+            }
+
+            function redirectToAbout() {
+                window.location.href = 'about.html';
+            }
+
+            function redirectToSkills() {
+                window.location.href = 'skills.html';
+            }
+
+            function redirectToProject() {
+                window.location.href = 'project.html';
+            }
+
+
+            function showDescription(rectangleId, descriptionText) {
+                var rectangle = document.getElementById(rectangleId);
+                var rectanglePosition = rectangle.getBoundingClientRect();
+
+                var descriptionDiv = document.getElementById("descriptionDiv");
+                descriptionDiv.style.display = "block";
+                descriptionDiv.style.top = (rectanglePosition.top + window.scrollY) + "px";
+                descriptionDiv.style.left = rectanglePosition.right + 10 + "px";
+                descriptionDiv.innerHTML = descriptionText;
+
+                rectangle.onclick = function() {
+                    descriptionDiv.style.display = "none";
+            };
+        }
+        </script>
+
+
+    </div>
+
+
+</body>
+</html>

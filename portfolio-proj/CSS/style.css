@@ -1,0 +1,590 @@
+/* Frame 1 */
+.frame1 {position: relative;
+         width: 100vw;
+         height: 100vh;
+
+         background: linear-gradient(180deg, rgba(134, 168, 231, 0.5) 0%,
+         rgba(134, 168, 231, 0.5) 0.01%, rgba(134, 168, 231, 0.5) 99.98%,
+         rgba(134, 168, 231, 0.5) 99.99%), linear-gradient(180deg,rgba(127, 127, 213, 0.5) 0%,
+         rgba(127, 127, 213, 0) 47.5%, rgba(127, 127, 213, 0) 99.95%,
+         rgba(127, 127, 213, 0) 99.96%, rgba(127, 127, 213, 0.00526315) 99.97%,
+         rgba(127, 127, 213, 0.5) 99.98%, rgba(127, 127, 213, 0.025) 99.99%,
+         rgba(127, 127, 213, 0) 100%);
+}
+
+
+/* DEVELOPER PORTFOLIO */
+
+.frame1 .developerportfolio {
+    position: absolute;
+    width: 795px;
+    height: 271px;
+    left: 165px;
+    top: 257px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 130px;
+    /* or 102% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+/* Group 1 */
+
+.frame1 .group1 {
+    position: absolute;
+    width: 1367px;
+    height: 127px;
+    top : 80vh;
+}
+
+.frame1 .about {
+    position: relative;
+    width: 303px;
+    height: 127px;
+    left: 5vw;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame1 .skills {
+    position: absolute;
+    width: 236px;
+    height: 119px;
+    left: 45vw;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.frame1 .project {
+    position: absolute;
+    width: 236px;
+    height: 119px;
+    left: 80vw;
+
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+
+
+
+.frame2 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: linear-gradient(180deg, rgba(145, 234, 228, 0) 0.01%,
+    rgba(145, 234, 228, 0.588303) 99.98%, rgba(145, 234, 228, 0.65) 99.99%,
+    rgba(145, 234, 228, 0) 100%, rgba(145, 234, 228, 0) 100%),
+    rgba(134, 168, 231, 0.5);
+
+}
+
+.frame2 .about {
+    position: absolute;
+    width: 236px;
+    height: 119px;
+    left: 41vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame2 .group1 {
+    position: absolute;
+    width: 440px;
+    height: 562px;
+    top: 10vw;
+    right: 10vw;
+}
+
+.frame2 .rectangle1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 440px;
+    height: 562px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.frame2 .image {
+    position: relative;
+    width: 81px;
+    height: 46px;
+    top: 45%;
+    left: 40%;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+
+/* Group 2 */
+.frame2 .group2 {
+    position: relative;
+    width: 925px;
+    height: 359px;
+    top: 35vh;
+}
+
+.frame2 .group2 .text {
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.frame2 .name {
+    position: relative;
+    width: 457px;
+    height: 80px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 70px;
+    /* or 325% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame2 .phone {
+    position: relative;
+    width: 457px;
+    height: 50px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 70px;
+    /* or 325% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+
+.frame2 .mail {
+    position: relative;
+    width: 842px;
+    height: 60px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    /* or 325% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame2 .github {
+    position: relative;
+    width: 842px;
+    height: 70px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 70px;
+    /* or 325% */
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.frame2 .icons {
+    position : relative;
+    width : 50px;
+    height : 30vh;
+    top : 5%;
+    left : 10%;
+}
+
+.frame3 .logos img:hover {
+    transform: scale(1.1);
+}
+
+.frame2 .icons .nameicon {
+    position: relative;
+    width: 48px;
+    height: 42px;
+
+    background: url(free-icon-profile-7542296.png);
+}
+
+.frame2 .icons .phoneicon {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    top: 32px;
+
+    background: url(free-icon-phone-94915.png);
+}
+
+.frame2 .icons .mailicon {
+    position: relative;
+    width: 44px;
+    height: 42px;
+    top: 50px;
+
+    background: url(free-icon-mail-415237.png);
+
+}
+
+.frame2 .icons .githubicon {
+    position: relative;
+    width: 44px;
+    height: 40px;
+    top: 72px;
+
+    background: url(free-icon-github-733609.png);
+}
+
+
+
+
+.frame2 .group3 {
+    position: absolute;
+    width: 21px;
+    height: 207px;
+    top: 35vh;
+    right: 5vw;
+}
+
+.frame2 .group3 .ellipse1 {
+    background-color:#86a8e7;
+    position:absolute;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame2 .group3 .ellipse2 {
+    background-color:#91eae4;
+    position:absolute;
+    top:70px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame2 .group3 .ellipse3 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:140px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame2 .group3 .ellipse4 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:210px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+
+/* SKILLS */
+
+.frame3 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(180deg, rgba(127, 127, 213, 0) 0%,
+    rgba(127, 127, 213, 0.5) 99.97%, rgba(127, 127, 213, 0) 99.98%,
+    rgba(145, 234, 228, 0.325) 99.99%,
+    rgba(145, 234, 228, 0) 100%), rgba(145, 234, 228, 0.5);
+}
+
+.frame3 .skills {
+    position: absolute;
+    width: 236px;
+    height: 119px;
+    left: 42vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame3 .logos {
+    position: absolute;
+    top: 25vh;
+}
+
+.frame3 .spring {
+    height:272px;
+    width:377px;
+    left:13vw;
+    top:0px;
+    position:absolute;
+}
+
+.frame3 .nodejs {
+    height:180px;
+    width:285px;
+    left:40vw;
+    top:35px;
+    position:absolute;
+}
+
+.frame3 .react {
+    height:211px;
+    width:235px;
+    left:64vw;
+    top:10px;
+    position:absolute;
+}
+
+.frame3 .mysql {
+    height:189px;
+    width:309px;
+    left:15vw;
+    top:290px;
+    position:absolute;
+}
+
+.frame3 .java {
+    height:194px;
+    width:310px;
+    left:39vw;
+    top:290px;
+    position:absolute;
+}
+
+.frame3 .js {
+    height:193px;
+    width:195px;
+    left:65vw;
+    top:290px;
+    position:absolute;
+}
+
+.frame3 .group3 {
+    position: absolute;
+    width: 21px;
+    height: 207px;
+    top: 35vh;
+    right: 5vw;
+}
+
+.frame3 .group3 .ellipse1 {
+    background-color:#86a8e7;
+    position:absolute;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame3 .group3 .ellipse2 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:70px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame3 .group3 .ellipse3 {
+    background-color:#91eae4;
+    position:absolute;
+    top:140px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame3 .group3 .ellipse4 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:210px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+
+/* Frame 4 */
+
+.frame4 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: linear-gradient(180deg, rgba(134, 168, 231, 0.5) 0%,
+    rgba(134, 168, 231, 0.5) 0.01%, rgba(134, 168, 231, 0.5) 99.98%,
+    rgba(134, 168, 231, 0.5) 99.99%), linear-gradient(180deg, rgba(127, 127, 213, 0.5) 0%,
+    rgba(127, 127, 213, 0) 47.5%, rgba(127, 127, 213, 0) 99.95%, rgba(127, 127, 213, 0) 99.96%,
+    rgba(127, 127, 213, 0.00526315) 99.97%, rgba(127, 127, 213, 0.5) 99.98%,
+    rgba(127, 127, 213, 0.025) 99.99%, rgba(127, 127, 213, 0) 100%);
+}
+
+.frame4 .project {
+    position: absolute;
+    width: 303px;
+    height: 127px;
+    left: 39vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130px;
+    /* or 203% */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.frame4 .images {
+    position: absolute;
+    top: 40vh;
+}
+
+.frame4 .rectangle1 {
+    height: 300px;
+    width: 378px;
+    left: 8vw;
+    position: relative;
+}
+
+.frame4 .rectangle2 {
+    height: 300px;
+    width: 378px;
+    left: 16vw;
+    position: relative;
+}
+
+.frame4 .rectangle3 {
+    height: 300px;
+    width: 378px;
+    left: 25vw;
+    position: relative;
+}
+
+.frame4 .group3 {
+    position: absolute;
+    width: 21px;
+    height: 207px;
+    top: 35vh;
+    right: 5vw;
+}
+
+.frame4 .group3 .ellipse1 {
+    background-color:#86a8e7;
+    position:absolute;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame4 .group3 .ellipse2 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:70px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame4 .group3 .ellipse3 {
+    background-color:#86a8e7;
+    position:absolute;
+    top:140px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame4 .group3 .ellipse4 {
+    background-color:#91eae4;
+    position:absolute;
+    top:210px;
+    height:21px;
+    width:21px;
+    border-radius:50%;
+}
+
+.frame4 .descriptionDiv {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

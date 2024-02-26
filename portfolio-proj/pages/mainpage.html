@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>main</title>
+</head>
+<body>
+
+    <div id='frame1' class='frame1'>
+        <div id='developerportfolio' class='developerportfolio'>
+            DEVELOPER PORTFOLIO</div>
+
+
+        <div id='group1' class='group1'>
+            <span id='about' class='about' onclick="redirectToAbout()">
+                ABOUT</span>
+            <span id='skills' class='skills' onclick="redirectToSkills()">
+                SKILLS</span>
+            <span id='project' class='project' onclick="redirectToProject()">
+                PROJECT</span>
+        </div>
+    </div>
+
+    <script>
+        function redirectToAbout() {
+            window.location.href = 'about.html';
+        }
+
+        function redirectToSkills() {
+            window.location.href = 'skills.html';
+        }
+
+        function redirectToProject() {
+            window.location.href = 'project.html';
+        }
+    </script>
+
+</body>
+</html>
+
